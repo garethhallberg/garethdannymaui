@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<Shell
+    x:Class="Demo1.AppShell"
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:local="clr-namespace:Demo1">
+    
+    <FlyoutItem >
+        <ShellContent
+            Title="Home"
+            ContentTemplate="{DataTemplate local:MainPage}"
+            Route="MainPage" />
+    </FlyoutItem >
+
+    <!--<TabBar x:Name="main" Route="Main">
+        <ShellContent Title="PAGE 2" Route="Page2" ContentTemplate="{DataTemplate local:Page2}" />
+        <ShellContent Title="PAGE 3" Route="Page3" ContentTemplate="{DataTemplate local:Page3}" />
+</TabBar>-->
+
+</Shell>
+
